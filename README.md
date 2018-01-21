@@ -20,4 +20,14 @@ make run
 
 Run `make test` to execute the test suite located in tests directory
 
+## Deploy
+
+### Push to Heroku
+
+```
+heroku login
+heroku create my_app_name
+git commit
+git push heroku master
+```
 
